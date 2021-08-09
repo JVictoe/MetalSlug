@@ -12,15 +12,39 @@ public class DotWeenButtonMenu : MonoBehaviour
     [SerializeField] private Text txtButton = default;
     [SerializeField] private int duract = default;
     [SerializeField] private float pos = default;
+    //public int id;
+
+    [SerializeField] private float startPosX = default;
+
+
+    private void Awake()
+    {
+        //btn.onClick.AddListener(delegate { AvancaCena(id); });
+    }
 
     void Start()
     {
+        startPosX = transform.position.y;
         MoveCima();
     }
 
-    void Update()
+    //void AvancaCena(int id)
+    //{
+    //    if (id == 1) StartCoroutine(MoveBaixo(0.1f));
+    //    else if (id == 2 || id == 3) MoveCima();
+    //}
+
+    private void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            StartCoroutine(MoveBaixo(0.1f));
+        }
+
+        if(Input.GetKeyDown(KeyCode.B))
+        {
+            MoveCima();
+        }
     }
 
     void MoveCima()
@@ -33,6 +57,24 @@ public class DotWeenButtonMenu : MonoBehaviour
 
         //Mover
         btnRect.DOAnchorPosY(pos, duract, true);
+    }
+
+    IEnumerator MoveBaixo(float temp)
+    {
+        while(btn.image.color.a > 0.01f)
+        {
+            yield return new WaitForSeconds(temp);
+            btn.image.DOFade(0, 1);
+            txtButton.DOFade(0, 1);
+
+            //Mover
+            btnRect.DOMoveY(startPosX, duract, true);
+        }
+
+
+        btn.enabled = false;
+        btn.image.enabled = false;
+        txtButton.enabled = false;
     }
 
 }

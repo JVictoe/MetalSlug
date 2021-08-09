@@ -11,18 +11,45 @@ public class DotWeenMovePersonagem : MonoBehaviour
     [SerializeField] private Image img = default;
     [SerializeField] private float pos = default;
     [SerializeField] private int durac = default;
+    [SerializeField] private float startPosX = default;
 
     void Start()
     {
-        StartCoroutine(nameof(MoveX));
+        startPosX = transform.position.x;
+        StartCoroutine(MoveX(1));
     }
 
-    IEnumerator MoveX()
+    private void Update()
     {
-        yield return new WaitForSeconds(2);
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            StartCoroutine(MoveXInvers(0.5f));
+        }
+
+        if(Input.GetKeyDown(KeyCode.B))
+        {
+            StartCoroutine(MoveX(1));
+        }
+    }
+
+    IEnumerator MoveX(float temp)
+    {
+        yield return new WaitForSeconds(temp);
         img.enabled = true;
         imgRect.DOAnchorPosX(pos, durac, true); 
         img.DOFade(1, 3);
+    }
+
+    IEnumerator MoveXInvers(float temp)
+    {
+        while(img.color.a > 0.01f)
+        {
+            yield return new WaitForSeconds(temp);
+            imgRect.DOMoveX(startPosX, durac, true);
+            img.DOFade(0, 0.5f);
+        }
+
+        img.enabled = false;
     }
 
 }
