@@ -123,41 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &76698927
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 76698928}
-  m_Layer: 3
-  m_Name: Chao
-  m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &76698928
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 76698927}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.06313131, y: 0.06038648, z: 0.013888889}
-  m_Children: []
-  m_Father: {fileID: 1100479719}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.1363634, y: -5.3442}
-  m_SizeDelta: {x: 31.77, y: 18.38}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &118770442
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,9 +1681,9 @@ GameObject:
   - component: {fileID: 976902165}
   - component: {fileID: 976902164}
   - component: {fileID: 976902166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Chao
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5113,10 +5078,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100479718}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18, y: 122, z: -6479.9995}
+  m_LocalPosition: {x: 18, y: 122, z: 0}
   m_LocalScale: {x: 15.84, y: 16.56, z: 72}
   m_Children:
-  - {fileID: 76698928}
+  - {fileID: 1968555579}
   m_Father: {fileID: 118770443}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5225,7 +5190,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &1100479724
 MonoBehaviour:
@@ -5246,12 +5211,12 @@ MonoBehaviour:
   maxSpeed: 5
   move: 0
   noChao: 0
-  noChaoCheck: {fileID: 0}
+  noChaoCheck: {fileID: 1968555579}
   noChaoRaio: 0.02
   oQueEChao:
     serializedVersion: 2
-    m_Bits: 0
-  jumpForce: 5
+    m_Bits: 64
+  jumpForce: 9.16
   animH: {fileID: 1100479720}
 --- !u!1 &1367080678
 GameObject:
@@ -5347,6 +5312,36 @@ Transform:
   - {fileID: 976902163}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1968555578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1968555579}
+  m_Layer: 3
+  m_Name: chao
+  m_TagString: Untagged
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1968555579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968555578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.41, y: -5.61, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1100479719}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2072727261
 GameObject:

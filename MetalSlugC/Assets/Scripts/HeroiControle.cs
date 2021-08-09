@@ -44,4 +44,51 @@ public class HeroiControle : MonoBehaviour
         animH.SetFloat("Y", rb.velocity.y);
         animH.SetBool("chao", noChao);
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawSphere(noChaoCheck.position, noChaoRaio);
+    }
+
+    private void FixedUpdate()
+    {
+        noChao = Physics2D.OverlapCircle(noChaoCheck.position, noChaoRaio, oQueEChao);
+
+        if(rb.velocity.y < 0)
+        {
+            rb.gravityScale = puloMenorY;
+        }
+        else if(rb.velocity.y > 0 && !Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.gravityScale = puloMaiorY;
+        }
+        else
+        {
+            rb.gravityScale = 1;
+        }
+
+        if(noChao)
+        {
+            rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);
+        }
+
+        if(move > 0 && !face)
+        {
+            Flip();
+        }
+        else if(move < 0 && face)
+        {
+            Flip();
+        }
+    }
+
+    void Flip()
+    {
+        face = !face;
+        Vector3 tempScale = transform.localScale;
+        tempScale.x *= -1;
+        transform.localScale = tempScale;
+    }
+
 }
