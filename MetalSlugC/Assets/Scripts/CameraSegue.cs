@@ -1,32 +1,57 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraSegue : MonoBehaviour
-{
-    [SerializeField] private GameObject player = default;
-    public float camVel = 0.25f;
-    private bool segueHeroi;
-    public Vector3 ultimoAlvoPos;
-    public Vector3 velAtual;
+public class CameraSegue : MonoBehaviour {
 
-    void Start()
+    public GameObject player;    
+    public float camVel = 0.25f; 
+    //novo
+    public bool segueHeroi;
+    //
+    public Vector3 velAtual;
+	[Range(0, 5)]
+	public float ajusteCam = 1;
+	Vector3 novaCamPos;
+
+    public static CameraSegue inst;
+
+    private void Awake()
     {
-        segueHeroi = true;
-        ultimoAlvoPos = player.transform.position;
+        if(inst == null)
+        {
+            inst = this;
+        }
     }
 
-    private void FixedUpdate()
+    // Use this for initialization
+    void Start()
     {
-        if(segueHeroi)
-        {
-            if(player.transform.position.x > transform.position.x)
-            {
-                Vector3 novaCamPos = Vector3.SmoothDamp(transform.position, player.transform.position, ref velAtual, camVel);
-                transform.position = new Vector3(novaCamPos.x, novaCamPos.y, transform.position.z);
+        
+        segueHeroi = true;
+        
+    }
 
-                ultimoAlvoPos = player.transform.position;
-            }
+    // LateUpdate is called after Update each frame
+    void FixedUpdate()
+    {        
+       if(segueHeroi)
+        {			
+			if (player.transform.position.x >= transform.position.x) {
+				novaCamPos = Vector3.SmoothDamp (transform.position, player.transform.position, ref velAtual, camVel);
+
+				transform.position = new Vector3 (novaCamPos.x, novaCamPos.y + ajusteCam, transform.position.z);
+
+			} else{
+				
+				novaCamPos = Vector3.SmoothDamp (transform.position, player.transform.position, ref velAtual, camVel);
+				transform.position = new Vector3 (transform.position.x, novaCamPos.y+ ajusteCam, transform.position.z);
+			}
         }
+    }
+
+    public void CamShake()
+    {
+        //iTween.ShakePosition(gameObject,new Vector3(0.8f,0,0),0.3f);
     }
 }
