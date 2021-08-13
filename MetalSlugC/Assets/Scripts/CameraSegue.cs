@@ -5,45 +5,10 @@ using UnityEngine;
 public class CameraSegue : MonoBehaviour
 {
 
-    public Transform player;
-    public float camVel = 0.25f;
-    //novo
-    public bool segueHeroi;
-    //
-    public Vector3 velAtual;
-    [Range(0, 5)]
-    public float ajusteCam = 1;
-    Vector3 novaCamPos;
+    public Transform target;
 
-    public static CameraSegue inst;
-
-    // Use this for initialization
-    void Start()
+    void Update()
     {
-
-        segueHeroi = true;
-
-    }
-
-    // LateUpdate is called after Update each frame
-    void FixedUpdate()
-    {
-        //    if(segueHeroi)
-        //     {			
-        //if (player.position.x >= transform.position.x) {
-        //	novaCamPos = Vector3.SmoothDamp (transform.position, player.position, ref velAtual, camVel);
-
-        //	transform.position = new Vector3 (novaCamPos.x, novaCamPos.y + ajusteCam, transform.position.z);
-
-        //} 
-        //     }
-
-        if (player.position.x >= transform.position.x)
-        {
-            novaCamPos = Vector3.SmoothDamp(transform.position, player.position, ref velAtual, camVel);
-
-            transform.position = new Vector3(novaCamPos.x, novaCamPos.y + ajusteCam, transform.position.z);
-        }
-
+        transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
     }
 }

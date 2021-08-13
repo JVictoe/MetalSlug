@@ -19,6 +19,10 @@ public class HeroiControle : MonoBehaviour
     [Range(1, 20)] public float jumpForce = 5f;
 
     [SerializeField] private Animator animH = default;
+
+    [SerializeField] private GameObject bala = default;
+    [SerializeField] private GameObject canoArma = default;
+    MoveBalas m;
     
     void Start()
     {
@@ -38,6 +42,13 @@ public class HeroiControle : MonoBehaviour
         {
             move = Input.GetAxis("Horizontal");
             animH.SetFloat("X", Mathf.Abs(move));
+        }
+
+        if(noChao && Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            animH.SetTrigger("Tiro");
+            GameObject balaInst = Instantiate(bala, canoArma.transform.position, Quaternion.identity);
+            balaInst.GetComponent<MoveBalas>().Vel *= transform.localScale.x;
         }
 
         //Pular
