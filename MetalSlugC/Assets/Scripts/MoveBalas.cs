@@ -34,11 +34,11 @@ public class MoveBalas : MonoBehaviour
         Move();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("limiteR") || collision.gameObject.CompareTag("limiteL"))
-        {
-            Destroy(gameObject);
-        }
-    }
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("limiteR") || collision.gameObject.CompareTag("limiteL"))
+    //    {
+    //        Destroy(gameObject);
+    //    }
+    //}
 }
