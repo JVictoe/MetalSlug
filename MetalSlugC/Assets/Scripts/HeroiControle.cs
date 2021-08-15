@@ -22,7 +22,8 @@ public class HeroiControle : MonoBehaviour
 
     [SerializeField] private GameObject bala = default;
     [SerializeField] private GameObject canoArma = default;
-    MoveBalas m;
+    [SerializeField] private GameObject bomba = default;
+    [SerializeField] private GameObject localBomba = default;
     
     void Start()
     {
@@ -44,11 +45,21 @@ public class HeroiControle : MonoBehaviour
             animH.SetFloat("X", Mathf.Abs(move));
         }
 
+        //Tiros
         if(noChao && Input.GetKeyDown(KeyCode.Mouse0))
         {
             animH.SetTrigger("Tiro");
             GameObject balaInst = Instantiate(bala, canoArma.transform.position, Quaternion.identity);
             balaInst.GetComponent<MoveBalas>().Vel *= transform.localScale.x;
+        }
+
+        //Bate
+        if (noChao && Input.GetKeyDown(KeyCode.E))
+        {
+            animH.SetTrigger("bomba");
+
+            GameObject bombaInst = Instantiate(bomba, localBomba.transform.position, Quaternion.identity);
+            bombaInst.GetComponent<Rigidbody2D>().AddForce(new Vector2(2f * transform.localScale.x, 3f), ForceMode2D.Impulse);
         }
 
         //Pular
