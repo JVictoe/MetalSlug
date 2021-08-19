@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: fc61758051c51f14fb9f342774617385
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1934355084984886765
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_0
+  - first:
+      213: -4033256539695727706
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_1
+  - first:
+      213: -1412068238455694284
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_2
+  - first:
+      213: 2803088893653209767
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_3
+  - first:
+      213: 7805265420841964147
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_4
+  - first:
+      213: 770623936822227689
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_5
+  - first:
+      213: -5268055256584135615
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_6
+  - first:
+      213: 2325915175097509399
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_7
+  - first:
+      213: 5774768530389655975
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_8
+  - first:
+      213: 304982027380068187
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_9
+  - first:
+      213: -4996181233985205935
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_10
+  - first:
+      213: -2545665725567521981
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_11
+  - first:
+      213: -6721267599017949011
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_12
+  - first:
+      213: -855987057647942638
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_13
+  - first:
+      213: 7054873831694395970
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_14
+  - first:
+      213: 1466879143259979057
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_15
+  - first:
+      213: 7962195644544472260
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_16
+  - first:
+      213: -693443158804095951
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_17
+  - first:
+      213: -7355232446338433624
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_18
+  - first:
+      213: -5515159853517487213
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_19
+  - first:
+      213: -7832367205165040092
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_20
+  - first:
+      213: 683551721373055318
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_21
+  - first:
+      213: 6191875565868841588
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_22
+  - first:
+      213: 7010935394642029881
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_23
+  - first:
+      213: -8953284876970192926
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_24
+  - first:
+      213: 3058228392456862570
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_25
+  - first:
+      213: -9123698489002446005
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_26
+  - first:
+      213: 3186039157838203056
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_27
+  - first:
+      213: -4573564460977244125
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_28
+  - first:
+      213: 7304349595519624422
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_29
+  - first:
+      213: -733279113587341714
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_30
+  - first:
+      213: -6954133014866241122
+    second: Neo Geo NGCD - Metal Slug - Marco Rossi_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_0
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 420
+        width: 56
+        height: 40
+      alignment: 9
+      pivot: {x: 0.3809084, y: 0.01953278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5aefd73b538da10800000000000000
+      internalID: 1934355084984886765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 420
+        width: 54
+        height: 40
+      alignment: 9
+      pivot: {x: 0.2714573, y: 0.01953278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab3a67db8ef608c0800000000000000
+      internalID: -4033256539695727706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 420
+        width: 56
+        height: 40
+      alignment: 9
+      pivot: {x: 0.2714573, y: 0.01953278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c9c382b63576ce0800000000000000
+      internalID: -1412068238455694284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_3
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 420
+        width: 43
+        height: 40
+      alignment: 9
+      pivot: {x: 0.37454578, y: 0.019532776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2da045f7296e620800000000000000
+      internalID: 2803088893653209767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_4
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 375
+        width: 37
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5399335, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372dce2db8fd15c60800000000000000
+      internalID: 7805265420841964147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_5
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 375
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2b3b9336ec1ba00800000000000000
+      internalID: 770623936822227689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_6
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 375
+        width: 33
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c5c2ec7ab14e6b0800000000000000
+      internalID: -5268055256584135615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_7
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 377
+        width: 31
+        height: 35
+      alignment: 9
+      pivot: {x: 0.49999607, y: -0.08443168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716a06d478f474020800000000000000
+      internalID: 2325915175097509399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_8
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 377
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.08443168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1eaf1e169142050800000000000000
+      internalID: 5774768530389655975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 419
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f0edcb9838b3400800000000000000
+      internalID: 304982027380068187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 419
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159c6da73aff9aab0800000000000000
+      internalID: -4996181233985205935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_11
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 419
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b29a6928afbacd0800000000000000
+      internalID: -2545665725567521981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 419
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da84130cab249b2a0800000000000000
+      internalID: -6721267599017949011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_13
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.50000006, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21400986e4cee14f0800000000000000
+      internalID: -855987057647942638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ae7512f52f7e160800000000000000
+      internalID: 7054873831694395970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_15
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13db0761fc66b5410800000000000000
+      internalID: 1466879143259979057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c45c31d0c66f7e60800000000000000
+      internalID: 7962195644544472260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_17
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c9e8ffe156066f0800000000000000
+      internalID: -693443158804095951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_18
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 326
+        width: 38
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5388834, y: -0.082086354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adf19b4f07fce990800000000000000
+      internalID: -7355232446338433624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 326
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393489375573673b0800000000000000
+      internalID: -5515159853517487213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_20
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ef7b94687dd4390800000000000000
+      internalID: -7832367205165040092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_21
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6593c024ba67c7900800000000000000
+      internalID: 683551721373055318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_22
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a780d6506fde550800000000000000
+      internalID: 6191875565868841588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_23
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93de9dc8898db4160800000000000000
+      internalID: 7010935394642029881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_24
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0820872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef805747da8fb380800000000000000
+      internalID: -8953284876970192926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_25
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 326
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.40911612, y: -0.020518832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bb76e0582017a20800000000000000
+      internalID: 3058228392456862570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_26
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 326
+        width: 42
+        height: 36
+      alignment: 9
+      pivot: {x: 0.41204688, y: 0.020524766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43bd3d409c126180800000000000000
+      internalID: -9123698489002446005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_27
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 326
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.42963743, y: 0.0000025431316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b84e63dbb5173c20800000000000000
+      internalID: 3186039157838203056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_28
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 326
+        width: 44
+        height: 36
+      alignment: 9
+      pivot: {x: 0.40297768, y: 0.0000025431316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328b912ca5f6780c0800000000000000
+      internalID: -4573564460977244125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_29
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 326
+        width: 43
+        height: 36
+      alignment: 9
+      pivot: {x: 0.39527503, y: 0.0000025431316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4273cc1434e5560800000000000000
+      internalID: 7304349595519624422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_30
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 326
+        width: 42
+        height: 36
+      alignment: 9
+      pivot: {x: 0.39445713, y: 0.020524766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66c961088ed2d5f0800000000000000
+      internalID: -733279113587341714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_31
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 326
+        width: 42
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4296381, y: 0.020524766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99d4181ed4fd7f90800000000000000
+      internalID: -6954133014866241122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

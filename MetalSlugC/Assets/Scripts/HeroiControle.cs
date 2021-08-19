@@ -18,7 +18,8 @@ public class HeroiControle : MonoBehaviour
     [SerializeField] private LayerMask oQueEChao = default;
     [Range(1, 20)] public float jumpForce = 5f;
 
-    [SerializeField] private Animator animH = default;
+    [SerializeField] private Animator animSup = default;
+    [SerializeField] private Animator animInfo = default;
 
     [SerializeField] private GameObject bala = default;
     [SerializeField] private GameObject canoArma = default;
@@ -39,16 +40,17 @@ public class HeroiControle : MonoBehaviour
         }
 
         //Andar
-        if(noChao)
+        if(noChao && Input.GetKeyDown(KeyCode.A))
         {
             move = Input.GetAxis("Horizontal");
-            animH.SetFloat("X", Mathf.Abs(move));
+            
+            animInfo.SetFloat("X", Mathf.Abs(move));
         }
 
         //Tiros
         if(noChao && Input.GetKeyDown(KeyCode.Mouse0))
         {
-            animH.SetTrigger("Tiro");
+            //animH.SetTrigger("Tiro");
             GameObject balaInst = Instantiate(bala, canoArma.transform.position, Quaternion.identity);
             balaInst.GetComponent<MoveBalas>().Vel *= transform.localScale.x;
         }
@@ -56,15 +58,15 @@ public class HeroiControle : MonoBehaviour
         //Bate
         if (noChao && Input.GetKeyDown(KeyCode.E))
         {
-            animH.SetTrigger("bomba");
+            //animH.SetTrigger("bomba");
 
             GameObject bombaInst = Instantiate(bomba, localBomba.transform.position, Quaternion.identity);
             bombaInst.GetComponent<Rigidbody2D>().AddForce(new Vector2(2f * transform.localScale.x, 3f), ForceMode2D.Impulse);
         }
 
         //Pular
-        animH.SetFloat("Y", rb.velocity.y);
-        animH.SetBool("chao", noChao);
+        //animH.SetFloat("Y", rb.velocity.y);
+        //animH.SetBool("chao", noChao);
     }
 
     private void OnDrawGizmos()
@@ -77,11 +79,11 @@ public class HeroiControle : MonoBehaviour
     {
         noChao = Physics2D.OverlapCircle(noChaoCheck.position, noChaoRaio, oQueEChao);
 
-        if(rb.velocity.y < 0)
+        if (rb.velocity.y < 0)
         {
             rb.gravityScale = puloMenorY;
         }
-        else if(rb.velocity.y > 0 && !Input.GetKeyDown(KeyCode.Space))
+        else if (rb.velocity.y > 0 && !Input.GetKeyDown(KeyCode.Space))
         {
             rb.gravityScale = puloMaiorY;
         }
@@ -90,19 +92,20 @@ public class HeroiControle : MonoBehaviour
             rb.gravityScale = 1;
         }
 
-        if(noChao)
+        if (noChao)
         {
             rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);
         }
 
-        if(move > 0 && !face)
+        if (move > 0 && !face)
         {
             Flip();
         }
-        else if(move < 0 && face)
+        else if (move < 0 && face)
         {
             Flip();
         }
+
     }
 
     void Flip()
